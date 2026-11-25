@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f5f9;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: #1e293b;
+}
+
+.container {
+    display: grid;
+
+    grid-template-columns: 200px 400px 200px;
+    grid-template-rows:120px 200px;
+    grid-column: 1/-1;
+    grid-row: span 2;
+    gap: 30px;
+
+    padding: 20px;
+}
+
+.box {
+    background-color: #2563eb;
+    color: white;
+
+    padding: 50px;
+
+    border-radius: 10px;
+
+    font-size: 25px;
+}
